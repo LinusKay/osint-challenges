@@ -20,15 +20,15 @@ Write the flag as `FLAG{building_name_00:00}`, eg: `FLAG{fancy_apartments_17:30}
 
 The IP camera is currently offline, however there is a screenshot inside the Gallery page. The building on the left in the distance has the text `KULTURNI CENTAR NOVI PAZAR` which can be used to track down the building. From there, its possible to use maps and reference the rooves to determine which building the camera is on. 
 
-searching for `novi plazar apartments` will return an image of the area with ‘KULA APARTMAN’ over the building
+Searching for `novi plazar apartments` will return an image of the area with ‘KULA APARTMAN’ over the building
 
-By looking up `kula apartments` you can find booking pages, which lists one-bedroom apartments
+By looking up `kula apartments` you can find booking pages, which lists check-in time.
 
 Flags: 
-- `kula_apartments_one`
-- `kula_apartman_one`
-- `kula_apartments_1`
-- `kula_apartman_1`
+- `kula_apartments_13:00`
+- `kula_apartman_13:00`
+- `kula_apartments_1pm`
+- `kula_apartman_1pm`
 </details>
 
 ---
