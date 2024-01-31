@@ -1,11 +1,11 @@
-NOTE: This is a multi-part challenge, based off of a fake webcam software, written in PHP. The `files` directory contains the required sites. Alternatively, a working demo is available at 
+NOTE: This is a multi-part challenge, based off of a fake webcam software, written in PHP. The `files` directory contains a local customised version of the Soniqcam website, available [here](https://github.com/LinusKay/soniqcam). 
+
+Alternatively, a working demo is available at 
 Demo site: https://libus.xyz/websec/ipcam. 
 
 # IPcam #1
 
 Difficulty: Hard
-
-
 
 ## Challenge
 My friend has been missing in action for some time. Suddenly, they sent me a message inviting me to come visit, and encouraged me to book a room in their apartment building. I want to track them down, but before they could tell me anything about the place they went offline again! The only other information they left was a link to a public webcam. 
