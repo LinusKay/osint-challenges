@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:arial;
+}
+body{
+    background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+#outer-wrap{
+    width:800px;
+    height:auto;
+    margin:auto;
+    position:relative;
+    background:white;
+}
+
+/* Top Section ---------------------  */
+#top{
+    width:100%;
+    float:left;
+    background:darkblue;
+    color:white;
+    position:relative;
+}
+#top h1{
+    padding:5px;
+    margin-top:25px;
+}
+#top h5{
+    padding:5px;
+}
+
+/* Controls Section ----------------  */
+nav{
+    float:left;
+    width:100%;
+    background:darkblue;
+    border-top:solid 1px blue;
+    padding-top:10px;
+}
+nav ul{
+    width:100%;
+    float:left;
+    height:30px;
+}
+nav li{
+    display:inline-block;
+    list-style-type:none;
+    height:20px;
+    width:90px;
+    font-size:12px; 
+    text-align:center;
+    font-weight:bold;
+    padding:2px;
+    box-sizing:border-box;
+    border-radius:2px;
+}
+nav li:hover{
+    border:solid 1px white;
+}
+nav li a{
+    position:relative;
+    display:block;
+    width:100%;
+    height:100%;
+    color:white;
+    text-decoration:none;
+}
+/* Controls Section ----------------  */
+#controls{
+    width:100%;
+    float:left;
+
+}
+#controls select{
+    margin:5px;
+}
+/* Camera View ---------------------  */
+#cam-box{
+    float:left;
+    width:100%;
+    height:480px;
+    background:white;
+    position:relative;
+    border:solid 1px black;
+    border-radius:5px;
+    pointer-events: none;
+}
+#cam-box .cam-frame{
+    position:relative;
+    width:790px;
+    height:470px;
+    margin:5px;
+    display:block;
+    pointer-events: none;
+}
+
+/* Gallery -------------------------  */
+#gallery{
+    min-height:250px;
+    width:100%;
+    float:left;
+    background:white;
+    border:solid 1px black;
+    border-radius:5px;
+}
+#gallery .status{
+    padding:10px;
+}
+.cap-box{
+    width:200px;
+    height:119px;
+    float:left;
+    position:relative;
+    margin:15px 33px 0;
+}
+.cap-box a{
+    display:block;
+    width:200px;
+    height:119px;
+    box-sizing:border-box;
+}
+.cap-box a:hover{
+    border:solid 1px red;
+}
+.cap-box a span{
+    display:inline-block;
+    font-size:12px;
+    background:grey;
+    color:white;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    word-break:break-all;
+}
+.cap-box img{
+    margin:5px;
+    width:190px;
+    height:109px;
+}
+/* Admin Login ---------------------  */
+#login{
+    width:100%;
+    float:left;
+    background:white;
+    border:solid 1px black;
+    border-radius:5px;
+}
+#login p{
+    padding:5px;
+    font-weight:bold;
+}
+#login input, #login label{
+    padding:5px;
+}
+/* Footer --------------------------  */
+footer{
+    width:100%;
+    background:darkblue;
+}
+footer li{
+    color:white;
+    font-size:12px;
+    padding:2px;
+    display:inline-block;
+    list-style-type:none;
+}
+footer li a{
+    color:white;
+}
